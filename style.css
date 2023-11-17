@@ -1,0 +1,85 @@
+/* Estilos Generales */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    background: url(img/biblioteca.png) no-repeat center center/cover  ;
+
+
+}
+.box{
+    margin: 60px auto;
+    
+}
+.titulo h1{
+  color:rgb(126, 156, 147)
+  font-size: 3rem;
+}
+.contenido-centrado{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* Contenedor */
+
+.contenedor{
+    width: 80vw;
+    max-width: 600px;
+    min-height: 500px;
+    padding: 20px;
+    background-color: white;
+    border: 5px solid black;
+    border-radius: 30px;
+}
+.contenedor-interno{
+    width: 80%;
+}
+
+/* Contenido */
+
+#titulo{
+    width: 100%;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Courgette', cursive;
+    
+}
+
+#cita{
+    font-size: 32px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 10px;
+}
+#autor{
+    width: 100%;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    font-family: 'Courgette', cursive;
+}
+#boton-cambiar-cita{
+    width: 180px;
+    height: 50px;
+    font-size: 20px;
+}
